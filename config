@@ -1,4 +1,12 @@
-Host *
-  UseKeychain yes
-  AddKeysToAgent yes
-  IdentityFile ~/.ssh/id_ed25519
+Host 5ccs2osc
+  Hostname 5CCS2OSC.nms.kcl.ac.uk
+  User k21153319
+  ProxyJump bastion
+  MACs hmac-sha2-512
+
+Host bastion
+  Hostname bastion.nms.kcl.ac.uk
+  User k21153319
+  PubkeyAuthentication yes
+  IdentityFile ~/.ssh/id_rsa
+  MACs hmac-sha2-512

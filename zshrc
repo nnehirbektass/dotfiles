@@ -70,3 +70,11 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+export LDFLAGS="-L/opt/homebrew/lib"
+export CPPFLAGS="-I/opt/homebrew/include"
+export GDAL_LIBRARY_PATH="/opt/homebrew/Cellar/gdal/3.10.2/lib/libgdal.dylib"
+export GEOS_LIBRARY_PATH="/opt/homebrew/opt/geos/lib/libgeos_c.dylib"
+export GDAL_LIBRARY_PATH="/opt/homebrew/Cellar/gdal/3.10.2/lib/libgdal.dylib"
+export GEOS_LIBRARY_PATH="/opt/homebrew/opt/geos/lib/libgeos_c.dylib"
+eval "$(direnv hook zsh)"

@@ -1,0 +1,5 @@
+#!/Users/nehirbektas/code/nnehirbektass/dotfiles/“/Users/nehirbektas/.pyenv”/versions/3.10.6/bin/python3.10
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

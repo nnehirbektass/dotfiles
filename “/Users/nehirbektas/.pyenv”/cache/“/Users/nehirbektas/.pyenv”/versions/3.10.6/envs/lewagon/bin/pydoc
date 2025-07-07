@@ -1,0 +1,4 @@
+#!“/Users/nehirbektas/.pyenv”/versions/3.10.6/envs/lewagon/bin/python
+import pydoc
+if __name__ == '__main__':
+      pydoc.cli()
